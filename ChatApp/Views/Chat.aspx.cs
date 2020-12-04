@@ -39,11 +39,23 @@ namespace ChatApp.Views
 
         public void ChatLoad()
         {
-            
-                for (int index = 0; index < Verwalter.ChatList.Count; index++)
+
+            for (int index = 0; index < Verwalter.ChatList.Count; index++)
+            {
+                if (Verwalter.ChatList[index].Status == "versand")
                 {
-                    ListBox1.Items.Add(Verwalter.ChatList[index].Datum.ToString() + Verwalter.ChatList[index].Text);
+                    ListBox1.Items.Add("Versendet:");
+                    ListBox1.Items.Add(Verwalter.ChatList[index].Datum.ToString() + ": " + Verwalter.ChatList[index].Text);
+                    ListBox1.Items.Add("");
+
                 }
+                else
+                {
+                    ListBox1.Items.Add("Empfangen:");
+                    ListBox1.Items.Add(Verwalter.ChatList[index].Datum.ToString() + ": " + Verwalter.ChatList[index].Text);
+                    ListBox1.Items.Add("");
+                }
+            }
             
            
         }

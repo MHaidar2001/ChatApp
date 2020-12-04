@@ -12,6 +12,6 @@
 
     <label class="control-label" for="inputDefault">Nachricht</label><br />
 
-    <asp:ListBox class="form-control"  ID="ListBox1" runat="server" Height="113px" Width="265px"></asp:ListBox>
+    <asp:ListBox class="form-control"  ID="ListBox1" runat="server" Height="153px" Width="363px"></asp:ListBox>
   </div>
 </asp:Content>
