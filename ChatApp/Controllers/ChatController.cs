@@ -22,7 +22,7 @@ namespace ChatApp.Controllers
         #region Konstruktoren
         public ChatController()
         {
-            this.Verwalter = new Controller();
+            this.Verwalter = Global.Control;
         }
         #endregion
 

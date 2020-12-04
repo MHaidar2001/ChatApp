@@ -15,16 +15,16 @@ namespace ChatApp.Views
         private Controllers.Controller _Verwalter;
 
         #endregion
-        public Controller Verwalter { get => _Verwalter; set => _Verwalter = value; }
 
         #region Accessoren/Modifier
+        public Controller Verwalter { get => _Verwalter; set => _Verwalter = value; }
 
         #endregion
 
         #region Konstruktoren
         public Chat()
         {
-            this.Verwalter = new Controller();
+            this.Verwalter = Global.Control;
         }
 
         #endregion

@@ -4,6 +4,6 @@
 
     <div class="jumbotron">
         <h1>Chat App</h1>
-        <p><a href="http://localhost:59525/Views/Chat" class="btn btn-primary btn-lg">Chaten &raquo;</a></p>
+        <p><a href="/Views/Chat" class="btn btn-primary btn-lg">Chaten &raquo;</a></p>
     </div>
 </asp:Content>
