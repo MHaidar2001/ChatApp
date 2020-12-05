@@ -32,14 +32,15 @@ namespace ChatApp.Views
         #region Worker
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
+           
             ChatLoad();
 
         }
 
         public void ChatLoad()
         {
-
+            ListBox1.Items.Clear();
             for (int index = 0; index < Verwalter.ChatList.Count; index++)
             {
                 if (Verwalter.ChatList[index].Status == "versand")
@@ -56,6 +57,8 @@ namespace ChatApp.Views
                     ListBox1.Items.Add("");
                 }
             }
+            ListBox1.SelectedIndex = ListBox1.Items.Count - 1;
+            
             
            
         }
@@ -68,8 +71,11 @@ namespace ChatApp.Views
 
             
         }
+
         #endregion
 
-
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+        }
     }
 }

@@ -7,11 +7,13 @@
 // </automatisch generiert>
 //------------------------------------------------------------------------------
 
-namespace ChatApp.Views {
-    
-    
-    public partial class Chat {
-        
+namespace ChatApp.Views
+{
+
+
+    public partial class Chat
+    {
+
         /// <summary>
         /// urltxt-Steuerelement
         /// </summary>
@@ -20,7 +22,7 @@ namespace ChatApp.Views {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox urltxt;
-        
+
         /// <summary>
         /// chattxt-Steuerelement
         /// </summary>
@@ -29,7 +31,7 @@ namespace ChatApp.Views {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox chattxt;
-        
+
         /// <summary>
         /// submitbtn-Steuerelement
         /// </summary>
@@ -38,7 +40,25 @@ namespace ChatApp.Views {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button submitbtn;
-        
+
+        /// <summary>
+        /// UpdatePanel1-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel UpdatePanel1;
+
+        /// <summary>
+        /// Timer2-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.Timer Timer2;
+
         /// <summary>
         /// ListBox1-Steuerelement
         /// </summary>
