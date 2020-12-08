@@ -67,15 +67,17 @@ namespace ChatApp.Views
         {
             Verwalter.Senden(urltxt.Text, chattxt.Text);
             Response.Redirect("Chat.aspx");
-
+            
 
             
         }
 
-        #endregion
-
         protected void Timer1_Tick(object sender, EventArgs e)
         {
+
         }
+        #endregion
+
+     
     }
 }

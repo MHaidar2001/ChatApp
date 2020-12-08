@@ -20,7 +20,7 @@
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
             
                 <ContentTemplate>
-                     <asp:Timer ID="Timer2" runat="server" Interval="2000" OnTick="Timer1_Tick"></asp:Timer>
+                     <asp:Timer ID="Timer2" runat="server" Interval="2500" OnTick="Timer1_Tick"></asp:Timer>
                      <br />
                      <asp:ListBox class="form-control"  ID="ListBox1" runat="server" Height="153px" Width="363px"></asp:ListBox>
                 </ContentTemplate>
@@ -28,5 +28,5 @@
 
    </div>
 
-
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server"></asp:UpdateProgress>
 </asp:Content>
